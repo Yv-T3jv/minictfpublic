@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTMLViewer</title>
+  <script src="https://cdn.jsdelivr.net/npm/dompurify@2.4.0/dist/purify.min.js"></script>
+</head>
+<body>
+  <h1>HTMLViewer</h1>
+  <p>Write your (non dangerous) HTML here, and get your teacher to check it!</p>
+  <p>(To insert a newline, use the character "|")</p>
+  <form action="/">
+    <input type="text" placeholder="Enter HTML here!" name="html">
+    <input type="submit">
+  </form>
+  <hr>
+  <h1>Show your teacher your HTML!</h1>
+  <form action="/visit" method="POST">
+    <input type="hidden" name="html" id="visitHTML">
+    <input type="submit">
+  </form>
+  <hr>
+  <div id="html"></div>
+  <script>
+
+    function setVisitHTML() {
+      const visitHTML = document.querySelector("input#visitHTML");
+      const urlParams = new URLSearchParams(window.location.search);
+      visitHTML.value = urlParams.get("html");
+    }
+
+    function decodeAndInsertHTML() {
+      const urlParams = new URLSearchParams(window.location.search);
+      try {
+
+        // Sanitize HTML to prevent XSS!
+        let sanitizedHTML = DOMPurify.sanitize(urlParams.get("html"));
+
+        // Replace | with newlines!
+        const htmlBox = document.querySelector("div#html");
+        sanitizedHTML = sanitizedHTML.split("|");
+        for (line of sanitizedHTML) {
+          htmlBox.innerHTML += line;
+          htmlBox.innerHTML += "<br>";
+        }
+      } catch (error) {}
+    }
+    window.addEventListener("DOMContentLoaded", decodeAndInsertHTML);
+    window.addEventListener("DOMContentLoaded", setVisitHTML);
+  </script>
+</body>
+</html>

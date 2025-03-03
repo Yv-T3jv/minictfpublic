@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StockAPI</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        input[type="text"] {
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+
+        button {
+            padding: 10px;
+            font-size: 16px;
+            color: white;
+            background-color: #007bff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        table {
+            width: 100%;
+            margin-top: 20px;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f4f4f9;
+        }
+
+        .error {
+            color: red;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Stock Query</h1>
+        <a href="/admin">If you are an admin, click here!</a>
+        <form id="stockForm">
+            <input type="text" id="symbol" name="symbol" placeholder="Enter stock symbol (e.g., SGD)" required>
+            <button type="submit">Submit</button>
+        </form>
+
+        <div id="result"></div>
+    </div>
+
+    <script>
+        document.getElementById('stockForm').addEventListener('submit', async function(event) {
+            event.preventDefault();
+            const symbol = document.getElementById('symbol').value;
+            const url = btoa(`/query?symbol=${encodeURIComponent(symbol)}`);
+
+            try {
+                const response = await fetch("/scrape?url=" + url);
+                if (!response.ok) {
+                    throw new Error(`Error: ${response.statusText}`);
+                }
+
+                const data = await response.json();
+                displayResult(data);
+            } catch (error) {
+                displayError(error.message);
+            }
+        });
+
+        function displayResult(data) {
+            const resultDiv = document.getElementById('result');
+            resultDiv.innerHTML = '';
+
+            if (data && data["Time Series (5min)"]) {
+                const timeSeries = data["Time Series (5min)"];
+                const table = document.createElement('table');
+
+                // Create table headers
+                const headers = ["Time", "Open", "High", "Low", "Close", "Volume"];
+                const thead = document.createElement('thead');
+                const headerRow = document.createElement('tr');
+
+                headers.forEach(header => {
+                    const th = document.createElement('th');
+                    th.textContent = header;
+                    headerRow.appendChild(th);
+                });
+
+                thead.appendChild(headerRow);
+                table.appendChild(thead);
+
+                // Create table rows
+                const tbody = document.createElement('tbody');
+
+                for (const [time, values] of Object.entries(timeSeries)) {
+                    const tr = document.createElement('tr');
+
+                    const timeTd = document.createElement('td');
+                    timeTd.textContent = time;
+                    tr.appendChild(timeTd);
+
+                    const openTd = document.createElement('td');
+                    openTd.textContent = values["1. open"];
+                    tr.appendChild(openTd);
+
+                    const highTd = document.createElement('td');
+                    highTd.textContent = values["2. high"];
+                    tr.appendChild(highTd);
+
+                    const lowTd = document.createElement('td');
+                    lowTd.textContent = values["3. low"];
+                    tr.appendChild(lowTd);
+
+                    const closeTd = document.createElement('td');
+                    closeTd.textContent = values["4. close"];
+                    tr.appendChild(closeTd);
+
+                    const volumeTd = document.createElement('td');
+                    volumeTd.textContent = values["5. volume"];
+                    tr.appendChild(volumeTd);
+
+                    tbody.appendChild(tr);
+                }
+
+                table.appendChild(tbody);
+                resultDiv.appendChild(table);
+            } else {
+                resultDiv.textContent = 'No results found.';
+            }
+        }
+
+        function displayError(message) {
+            const resultDiv = document.getElementById('result');
+            resultDiv.innerHTML = `<p class="error">${message}</p>`;
+        }
+    </script>
+</body>
+</html>

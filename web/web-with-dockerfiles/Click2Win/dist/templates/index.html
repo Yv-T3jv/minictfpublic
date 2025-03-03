@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Click Game</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #f0f8ff;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      color: #333;
+    }
+
+    p {
+      font-size: 1.25rem;
+      color: #555;
+    }
+
+    .flag {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #006400;
+      margin: 20px 0;
+    }
+
+    button {
+      padding: 10px 20px;
+      font-size: 1.25rem;
+      color: #fff;
+      background-color: #007BFF;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+
+    footer {
+      position: absolute;
+      bottom: 10px;
+      font-size: 0.9rem;
+      color: #999;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to the Click Game!</h1>
+  <p>Click the button below and try to reach the goal!</p>
+  <p>Current clicks: {{ clicks }}</p>
+  <div class="flag">{{ flag }}</div>
+  <button onclick="sendClick()">Click Me!</button>
+
+  <footer>&copy; 2025 Click Game</footer>
+
+  <script>
+    function sendClick() {
+      fetch('/click')
+        .then(response => {
+          if (response.ok) {
+            window.location.reload();
+          } else {
+            alert('Something went wrong!');
+          }
+        })
+        .catch(error => {
+          console.error('Error:', error);
+          alert('Unable to send click. Try again later!');
+        });
+    }
+  </script>
+</body>
+</html>

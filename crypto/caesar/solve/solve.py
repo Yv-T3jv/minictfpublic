@@ -1,0 +1,191 @@
+enc = '''Trjjzlj
+F, cffb, Kzkzezlj, cffb, kyv mzccrzej wcp!
+Dpjvcw yrmv, kf dzev fne, klievu vevdp.
+Kyzj vejzxe yviv fw dzev nrj kliezex srtb;
+Z jcvn kyv tfnriu reu uzu krbv zk wifd yzd.
+
+
+Kzkzezlj
+F Trjjzlj, Silklj xrmv kyv nfiu kff vricp,
+Nyf yrmzex jfdv rumrekrxv fe Ftkrmzlj
+Kffb zk kff vrxvicp. Yzj jfcuzvij wvcc kf jgfzc,
+Nyzcjk nv sp Rekfep riv rcc vetcfjvu.
+
+[Vekvi Gzeurilj.]
+Gzeurilj
+Wcp wlikyvi fww, dp cfiu, wcp wlikyvi fww!
+Drib Rekfep zj ze pfli kvekj, dp cfiu.
+Wcp, kyvivwfiv, efscv Trjjzlj, wcp wri fww!
+Trjjzlj
+Kyzj yzcc zj wri veflxy. Cffb, cffb, Kzkzezlj --
+Riv kyfjv dp kvekj nyviv Z gvitvzmv kyv wziv?
+Kzkzezlj
+Kyvp riv, dp cfiu.
+Trjjzlj
+                               Kzkzezlj, zw kyfl cfmvjk dv,
+Dflek kyfl dp yfijv reu yzuv kyp jglij ze yzd,
+Kzcc yv yrmv siflxyk kyvv lg kf pfeuvi kiffgj
+Reu yviv rxrze, kyrk Z drp ivjk rjjlivu
+Nyvkyvi pfeu kiffgj riv wizveu fi vevdp.
+
+Kzkzezlj
+Z nzcc sv yviv rxrze, vmve nzky r kyflxyk.
+[Vozk Kzkzezlj.]
+Trjjzlj
+Xf, Gzeurilj, xvk yzxyvi fe kyrk yzcc;
+Dp jzxyk nrj vmvi kyztb. Ivxriu Kzkzezlj,
+Reu kvcc dv nyrk kyfl efk'jk rsflk kyv wzvcu.
+[Gzeurilj rjtveuj kyv yzcc.]
+Kyzj urp Z sivrkyvu wzijk -- kzdv zj tfdv ifleu,
+Reu nyviv Z uzu svxze, kyviv jyrcc Z veu.
+Dp czwv zj ile yzj tfdgrjj. [Kf Gzeurilj] Jziiry, nyrk evnj?
+Gzeurilj
+[Wifd rsfmv kyv jkrxv] F dp cfiu!
+Trjjzlj
+Nyrk evnj?
+Gzeurilj
+[Rsfmv] Kzkzezlj zj vetcfjvu ifleu rsflk
+Nzky yfijvdve kyrk drbv kf yzd fe kyv jgli;
+Pvk yv jglij fe. Efn kyvp riv rcdfjk fe yzd.
+Efn, Kzkzezlj! Efn jfdv czxyk. F, yv czxykj kff!
+Kyv wcrx'j kr've! ZIJ{vK_Kl_SIlKv} [Jyflkzex] Reu yrib, kyvp jyflk wfi afp.
+Trjjzlj
+Tfdv ufne, svyfcu ef dfiv.
+F tfnriu kyrk Z rd kf czmv jf cfex,
+Kf jvv dp svjk wizveu kr've svwfiv dp wrtv.
+[Gzeurilj uvjtveuj.]
+Tfdv yzkyvi, jziiry.
+Ze Grikyzr uzu Z krbv kyvv gizjfevi,
+Reu kyve Z jnfiv kyvv, jrmzex fw kyp czwv,
+Kyrk nyrkjfvmvi Z uzu szu kyvv uf,
+Kyfl jyflcujk rkkvdgk zk. Tfdv efn, bvvg kyzev frky.
+Efn sv r wivvdre, reu nzky kyzj xffu jnfiu
+Kyrk ire kyiflxy Trvjri'j sfnvcj, jvrity kyzj sfjfd.
+Jkreu efk kf rejnvi. Yviv, krbv kyfl kyv yzckj;
+Reu nyve dp wrtv zj tfmvivu, rj 'kzj efn,
+Xlzuv kyfl kyv jnfiu.
+[Gzeurilj jkrsj yzd.]
+                                     Trvjri, kyfl rik ivmvexvu,
+Vmve nzky kyv jnfiu kyrk bzcc'u kyvv.
+[Trjjzlj uzvj.]
+Gzeurilj
+Jf, Z rd wivv; pvk nflcu efk jf yrmv svve
+Ulijk Z yrmv ufev dp nzcc -- F Trjjzlj!
+Wri wifd kyzj tflekip Gzeurilj jyrcc ile,
+Nyviv evmvi Ifdre jyrcc krbv efkv fw yzd.
+[Vozk Gzeurilj. Iv-vekvi Kzkzezlj nzky Dvjjrcr.]
+Dvjjrcr
+Zk zj slk tyrexv, Kzkzezlj; wfi Ftkrmzlj
+Zj fmvikyifne sp efscv Silklj' gfnvi,
+Rj Trjjzlj' cvxzfej riv sp Rekfep.
+Kzkzezlj
+Kyvjv kzuzexj nzcc nvcc tfdwfik Trjjzlj.
+Dvjjrcr
+Nyviv uzu pfl cvrmv yzd?
+Kzkzezlj
+                                          Rcc uzjtfejfcrkv,
+Nzky Gzeurilj yzj sfeudre, fe kyzj yzcc.
+Dvjjrcr
+Zj efk kyrk yv kyrk czvj lgfe kyv xifleu?
+Kzkzezlj
+Yv czvj efk czbv kyv czmzex. F dp yvrik!
+Dvjjrcr
+Zj efk kyrk yv?
+Kzkzezlj
+
+
+                      Ef, kyzj nrj yv, Dvjjrcr,
+Slk Trjjzlj zj ef dfiv. F jvkkzex jle,
+Rj ze kyp ivu irpj kyfl ufjk jzeb kfezxyk,
+Jf ze yzj ivu scffu Trjjzlj' urp zj jvk.
+Kyv jle fw Ifdv zj jvk. Fli urp zj xfev;
+
+
+Tcfluj, uvnj, reu urexvij tfdv; fli uvvuj riv ufev.
+Dzjkiljk fw dp jlttvjj yrky ufev kyzj uvvu.
+
+
+Dvjjrcr
+Dzjkiljk fw xffu jlttvjj yrky ufev kyzj uvvu.
+F yrkvwlc viifi, dvcretyfcp'j tyzcu,
+Nyp ufjk kyfl jyfn kf kyv rgk kyflxykj fw dve
+Kyv kyzexj kyrk riv efk? F viifi, jffe tfetvzmvu,
+Kyfl evmvi tfd'jk lekf r yrggp sziky,
+Slk bzcc'jk kyv dfkyvi kyrk vexveuvivu kyvv.
+Kzkzezlj
+Nyrk, Gzeurilj! Nyviv rik kyfl, Gzeurilj?
+Dvjjrcr
+Jvvb yzd, Kzkzezlj, nyzcjk Z xf kf dvvk
+Kyv efscv Silklj, kyiljkzex kyzj ivgfik
+Zekf yzj vrij. Z drp jrp 'kyiljkzex' zk,
+Wfi gzvitzex jkvvc reu urikj vemvefdvu
+Jyrcc sv rj nvctfdv kf kyv vrij fw Silklj
+Rj kzuzexj fw kyzj jzxyk.
+Kzkzezlj
+                                     Yzv pfl, Dvjjrcr,
+Reu Z nzcc jvvb wfi Gzeurilj kyv nyzcv.
+[Vozk Dvjjrcr.]
+
+
+Nyp uzujk kyfl jveu dv wfiky, sirmv Trjjzlj?
+Uzu Z efk dvvk kyp wizveuj, reu uzu efk kyvp
+Glk fe dp sifnj kyzj nivrky fw mztkfip,
+Reu szu dv xzmv zk kyvv? Uzujk kyfl efk yvri kyvzi jyflkj?
+Rcrj, kyfl yrjk dzjtfejkilvu vmvipkyzex!
+Slk yfcu kyvv, krbv kyzj xricreu fe kyp sifn --
+Kyp Silklj szu dv xzmv zk kyvv, reu Z
+Nzcc uf yzj szuuzex. Silklj, tfdv rgrtv,
+Reu jvv yfn Z ivxriuvu Trzlj Trjjzlj.
+Sp pfli cvrmv, xfuj; kyzj zj r Ifdre'j grik --
+Tfdv, Trjjzlj' jnfiu, reu wzeu Kzkzezlj' yvrik.
+[Bzccj yzdjvcw. Kildgvkj. Iv-vekvi Dvjjrcr, nzky Silklj, Trkf, Jkirkf, Mfcldezlj, reu Cltzczlj.]
+Silklj
+Nyviv, nyviv, Dvjjrcr, ufky yzj sfup czv?
+Dvjjrcr
+Cf, pfeuvi, reu Kzkzezlj dfliezex zk.
+Silklj
+Kzkzezlj' wrtv zj lgnriu.
+Trkf
+                                       Yv zj jcrze.
+Silklj
+
+
+F Alczlj Trvjri, kyfl rik dzxykp pvk!
+Kyp jgzizk nrcbj rsifru reu kliej fli jnfiuj
+Ze fli fne gifgvi vekirzcj.
+[Cfn kildgvkj.]
+Trkf
+                                            Sirmv Kzkzezlj!
+Cffb nyv'vi yv yrmv efk tifnevu uvru Trjjzlj!
+Silklj
+
+
+Riv pvk knf Ifdrej czmzex jlty rj kyvjv?
+Kyv crjk fw rcc kyv Ifdrej, wriv kyvv nvcc.
+Zk zj zdgfjjzscv kyrk vmvi Ifdv
+Jyflcu sivvu kyp wvccfn. -- Wizveuj, Z fnv dfiv kvrij
+
+Kf kyzj uvru dre kyre pfl jyrcc jvv dv grp.
+Z jyrcc wzeu kzdv, Trjjzlj, Z jyrcc wzeu kzdv.
+Tfdv, kyvivwfiv, reu kf Kyrjfj jveu yzj sfup;
+Yzj wlevircj jyrcc efk sv ze fli trdg
+Cvjk zk uzjtfdwfik lj. Cltzczlj, tfdv,
+Reu tfdv, pflex Trkf; cvk lj kf kyv wzvcu.
+Crsvf reu Wcrmzlj, jvk fli srkkcvj fe.
+'Kzj kyivv f'tcftb; reu, Ifdrej, pvk viv ezxyk
+Nv jyrcc kip wfiklev ze r jvtfeu wzxyk.
+[Vozk, svrizex fww kyv sfuzvj.]'''
+
+for c in enc:
+    if ord(c) <= ord('z') and ord(c) >= ord('a'):
+        x = ord(c) - ord('a')
+        y = x + 9
+        y %= 26
+        print(chr(y+ord('a')), end = '')
+    elif ord(c) <= ord('Z') and ord(c) >= ord('A'):
+        x = ord(c) - ord('A')
+        y = x + 9
+        y %= 26
+        print(chr(y+ord('A')), end = '')
+    else:
+        print(c, end = '')
